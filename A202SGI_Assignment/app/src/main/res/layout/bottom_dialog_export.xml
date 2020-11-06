@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_round_white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textColor="@color/black_1000"
+            android:text="Export Transactions"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/close_button"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_close_black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Month"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/month"
+            android:background="@drawable/textview_bottom_border"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/black_1000"
+            android:text="September"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/export_btn"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white_1000"
+        android:text="EXPORT"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

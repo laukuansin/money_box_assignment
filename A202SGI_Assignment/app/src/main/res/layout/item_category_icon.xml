@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <com.example.a202sgi_assignment.utilities.CircleImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:src="@drawable/question"
+        android:id="@+id/icon"
+        android:layout_width="48dp"
+        android:layout_margin="20dp"
+        android:layout_height="48dp"
+        />
+

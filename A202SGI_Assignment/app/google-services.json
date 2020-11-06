@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "261187286372",
+    "firebase_url": "https://money-box-bfdd7.firebaseio.com",
+    "project_id": "money-box-bfdd7",
+    "storage_bucket": "money-box-bfdd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261187286372:android:d3f29b12e035c4a3bdb671",
+        "android_client_info": {
+          "package_name": "com.example.a202sgi_assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261187286372-sekf2ncb0k6ooajibflrrqrq27v9sc6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a202sgi_assignment",
+            "certificate_hash": "725754ed6d193581b269669fa0d5a6f971b96d18"
+          }
+        },
+        {
+          "client_id": "261187286372-5on7b9cp5ovm0t8ckult6nhi5s250h4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB34dwG6THmqsj4QlkIjyZWDAAg3o3qXvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261187286372-ogfsmi137bti0tde6k8f7dlqu1hkae1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
